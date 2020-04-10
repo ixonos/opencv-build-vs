@@ -45,7 +45,8 @@
     <OutDir>\usr\local\lib\openvslam\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>\usr\local\lib\openvslam\debug\</OutDir>
+    <OutDir>\usr\local\lib\openvslam\</OutDir>
+    <TargetName>$(ProjectName)d</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
